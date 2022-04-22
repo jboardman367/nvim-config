@@ -3,7 +3,7 @@ nnoremap <m-j> A\\<c-j>
 nnoremap <leader>ea o\begin{align*}<CR><BS>\end{align*}<Esc>O
 nnoremap <leader>n :<C-U>exe "call MatrixNext(" . v:count1 . ")"<CR>
 nnoremap <leader>N :<C-U>exe "call MatrixNext(-" . v:count1 . ")"<CR>
-inoremap <c-n> <esc>:<C-U>exe "call MatrixNext(1)"<CR>
+inoremap <c-n> <esc>:<C-U>exe "call MatrixNext(1)"<CR>i
 
 let g:matrixLine = 0
 let g:matrixStride = 0
