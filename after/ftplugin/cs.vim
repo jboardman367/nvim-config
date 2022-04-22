@@ -1,2 +1,2 @@
-inoremap <m-o> <Esc>A;<c-j>
-nnoremap <m-o> A;<c-j>
+inoremap <m-j> <Esc>A;<c-j>
+nnoremap <m-j> A;<c-j>
